@@ -1,0 +1,33 @@
+/* This file contains the style of WeatherInfo and it's Components (Time, Temperature)  */
+
+.weather-info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.location {
+  font-weight: bolder;
+  font-size: 4vw;
+}
+
+.time {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 8vw;
+  width: 34vw;
+  background-color: rgba(220, 220, 220, 0.371);
+  border-radius: 50px;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 3vw;
+  background-color: rgba(220, 220, 220, 0.371);
+  border-radius: 50px;
+}
